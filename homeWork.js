@@ -136,13 +136,15 @@ let insertAtBottom = (temp, stack) => {
 };
 
 let revNum = new Stack();
+
 revNum.push(1);
 revNum.push(2);
 revNum.push(3);
 revNum.push(4);
 revNum.push(5);
+reverseStack(revNum);
 while (!revNum.isEmpty()) {
   console.log(revNum.pop());
 }
 
-console.log(reverseStack(revNum));
+// console.log();
